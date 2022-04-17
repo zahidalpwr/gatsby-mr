@@ -5,7 +5,10 @@ const config: GatsbyConfig = {
     title: `Test Gatby`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 }
 
 export default config
